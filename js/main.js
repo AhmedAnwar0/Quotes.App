@@ -17,6 +17,7 @@ let lastQuote ='';
 
 function randomeQoutes() {
     let randomQoute = Math.floor(Math.random()*quotes.length)
+  // Validation
     while(quotes[randomQoute] === lastQuote) {
        randomQoute = Math.floor(Math.random()*quotes.length)
     }
